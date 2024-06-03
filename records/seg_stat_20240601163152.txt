@@ -1,0 +1,12 @@
+Final F-1: 1.00000
+Final F-B: 1.00000
+Final SEN: 1.00000
+Final SPE: 1.00000
+Final BAC: 1.00000
+Final ACC: 1.00000
+Final PPV: 1.00000
+Final NPV: 1.00000
+
+Total Time: 2.0
+Average Time: 1.0
+G Score: 1.0
