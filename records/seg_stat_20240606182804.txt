@@ -1,0 +1,12 @@
+Final F-1: 0.97129
+Final F-B: 0.97003
+Final SEN: 0.96932
+Final SPE: 0.98865
+Final BAC: 0.97899
+Final ACC: 0.97698
+Final PPV: 0.97392
+Final NPV: 0.99070
+
+Total Time: 59640.638043403625
+Average Time: 4.731881787004413
+G Score: 0.9375

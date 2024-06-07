@@ -244,7 +244,7 @@ def main():
 
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
-    argparser.add_argument('--com', type=str, default='com6')
+    argparser.add_argument('--com', type=str, default='com3')
     argparser.add_argument('--baudrate', type=int, default=115200)
     argparser.add_argument('--size', type=int, default=1250)
     argparser.add_argument('--path_data', type=str, default='./data/testing_dataset/')
