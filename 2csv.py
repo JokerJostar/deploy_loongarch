@@ -24,7 +24,7 @@ def generate_label_csv(data_path, output_csv_path):
     df.to_csv(output_csv_path, index=False)
 
 # 示例调用
-data_path = './data/testing_dataset/'  # 数据目录路径
+data_path = './data/4/'  # 数据目录路径
 output_csv_path = './data_indices/final_test_indice.csv'  # 输出 CSV 文件路径
 
 generate_label_csv(data_path, output_csv_path)

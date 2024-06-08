@@ -180,9 +180,7 @@ def main():
         recv = ser.read(8)
         ser.reset_input_buffer()
         # the format of recv is ['<result>','<dutation>']
-        print("Received data (hex):", recv.hex())
-        print("Received data (int):", list(recv))
-        print("Received data (ASCII):", recv.decode('ascii', errors='ignore'))
+
         
         result = recv[3]
         tm_cost = recv[4] | (recv[5] << 8) | (recv[6] << 16) | (recv[7] << 24)
@@ -244,10 +242,10 @@ def main():
 
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
-    argparser.add_argument('--com', type=str, default='com3')
+    argparser.add_argument('--com', type=str, default='com6')
     argparser.add_argument('--baudrate', type=int, default=115200)
     argparser.add_argument('--size', type=int, default=1250)
-    argparser.add_argument('--path_data', type=str, default='./data/testing_dataset/')
+    argparser.add_argument('--path_data', type=str, default='./data/4/')
     argparser.add_argument('--path_net', type=str, default='./saved_models/')
     argparser.add_argument('--path_records', type=str, default='./records/')
     argparser.add_argument('--path_indices', type=str, default='./data_indices/')
