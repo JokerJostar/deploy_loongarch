@@ -2,7 +2,7 @@
 
 该项目以IESD-2024大赛为契机，本人自2024年5月19日开始搭建该项目，旨在通过构建一个完整的AIoT框架，实现从训练到部署的全链路，以便在龙芯平台上实现AIoT应用的部署。
 
-训练部分基于本人独立开发的ATML无监督训练框架
+训练部分基于本人开发的ATML无监督训练框架
 
 关于模型结构与训练框架请前往[ECM-ATML_loongarch64](https://github.com/JokerJostar/ECM-ATML_loongarch64)
 
