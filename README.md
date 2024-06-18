@@ -56,8 +56,7 @@ libtorch
 
 ## libtorch
 
-libtorch的项目搭建简单，但是所有的libtorch链接库需要重新编译，对交叉编译工具链的兼容性不好，这里选择直接从龙芯pip库中的```torch-2.0.0a0+git0bd6be9-cp38-cp38-linux_loongarch64```中提取so文件
-
+libtorch的项目搭建简单，但是所有的libtorch链接库需要重新编译，对交叉编译工具链的兼容性不好
 #### 1.将lib导入环境变量
 
 ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/lib```
